@@ -17,9 +17,9 @@ const Nav = () => {
           <Link to='/'>
             <img src={logo} alto='comfy sloth' />
           </Link>
-          <buton type='button' className='nav-toggle' onClick={openSidebar}>
+          <button type='button' className='nav-toggle' onClick={openSidebar}>
             <FaBars />
-          </buton>
+          </button>
         </div>
         <ul className='nav-links'>
           {links.map((link) => {
